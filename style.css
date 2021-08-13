@@ -1,0 +1,44 @@
+
+ .bg-2{
+        background: linear-gradient(to right, rgb(221, 94, 137), rgb(247, 187, 151));
+      }
+     
+    .t-stroke-shadow {
+        color: #e8858e;
+        text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2;
+        text-align: center;
+    }
+    
+        
+
+button
+{ 
+    margin : auto;
+ 
+    height: 50px;
+    width: 100px;
+    position: relative;
+    top: 10%;
+    left: 45%;
+
+    border-color: whitesmoke;
+  color: black;
+  box-shadow: 0 0 40px 40px pink inset, 0 0 0 0 pink;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+     
+}
+
+button:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+  }
+
+
+body 
+{ 
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: url("https://www.blogdelfotografo.com/wp-content/uploads/2012/01/silueta-estrellas-scaled.jpg"); 
+}
+
